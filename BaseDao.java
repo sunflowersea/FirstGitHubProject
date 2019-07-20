@@ -1,4 +1,4 @@
-package com.kgc.exam.utils;
+﻿package com.kgc.exam.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,7 +12,7 @@ import java.util.Properties;
 public class BaseDao {//工具类
 	Connection conn=null;//创建连接对象
 	PreparedStatement pstmt=null;//创建sql语句解析对象
-	ResultSet rs=null;
+	ResultSet rs=null;//创建容器对象接收查询内容
 	int count=0;
 	private static String driver;
 	private static String url;
